@@ -9,6 +9,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // ✅ Enable static export for Next.js 15
+  output: "export",
 }
 
 export default nextConfig

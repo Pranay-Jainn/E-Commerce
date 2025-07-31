@@ -1,11 +1,11 @@
 "use client"
 
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, Suspense } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import { Eye, EyeOff, Mail, Lock } from "lucide-react"
 
-export default function Login() {
+function LoginContent() {
   const searchParams = useSearchParams()
   const [isLogin, setIsLogin] = useState(true) // Default: login
 
@@ -110,5 +110,13 @@ export default function Login() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function Login() {
+  return (
+    <Suspense fallback={<div className="text-center py-10">Loading login form...</div>}>
+      <LoginContent />
+    </Suspense>
   )
 }

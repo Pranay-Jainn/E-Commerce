@@ -29,14 +29,16 @@ export default function About() {
     },
   ]
 
-  const milestones = [
-    { year: "1952", event: "Founded by Master Jeweler Henri Lumière in Paris" },
-    { year: "1978", event: "Opened flagship store on Fifth Avenue, New York" },
-    { year: "1995", event: "Launched our signature diamond collection" },
-    { year: "2010", event: "Introduced sustainable and ethical sourcing practices" },
-    { year: "2020", event: "Expanded to online luxury jewelry market" },
-    { year: "2024", event: "Celebrating 72 years of exceptional craftsmanship" },
-  ]
+  // ✅ Updated milestones for Gemistry Jewellery (Jaipur)
+const milestones = [
+  { year: "1985", event: "Gemistry Jewellery was founded in Jaipur, Rajasthan" },
+  { year: "1992", event: "Opened our first boutique in Johari Bazaar, Jaipur" },
+  { year: "2005", event: "Expanded our collection to include modern fusion jewellery" },
+  { year: "2012", event: "Collaborated with local artisans to revive traditional Kundan & Meenakari work" },
+  { year: "2018", event: "Started ethically sourced gemstone and sustainable jewellery initiatives" },
+  { year: "2024", event: "Launched Gemistry Jewellery online to share Jaipur’s heritage with the world" },
+]
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-orange-50">
@@ -44,7 +46,7 @@ export default function About() {
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <Image
           src="/banner.jpg?height=800&width=1600&text=Jewelry+Workshop"
-          alt="Lumière Jewelry Workshop"
+          alt="Gemistry Jewellery Workshop"
           fill
           className="object-cover"
           priority
@@ -53,7 +55,7 @@ export default function About() {
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 fade-in">
           <h1 className="font-playfair text-5xl md:text-6xl font-bold mb-6">Our Story</h1>
           <p className="text-xl md:text-2xl text-gray-200">
-            Three generations of passion, craftsmanship, and timeless elegance
+            A legacy of Jaipur’s heritage and timeless craftsmanship
           </p>
         </div>
       </section>
@@ -66,25 +68,20 @@ export default function About() {
               <h2 className="font-playfair text-4xl font-bold text-gray-900 mb-6">The Gemistry Legacy</h2>
               <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
                 <p>
-                  Founded in 1952 by master jeweler Henri Lumière, our atelier began as a small workshop in the heart of
-                  Paris. Henri's vision was simple yet profound: to create jewelry that captures the essence of life's
-                  most precious moments.
+                  Welcome to <strong>Gemistry Jewellery</strong>, where timeless elegance meets modern artistry. Born in the heart of <strong>Jaipur, Rajasthan</strong> – the vibrant city known as the <em>Pink City of India</em> and the jewellery capital of the world – Gemistry is more than just a brand. It is a celebration of India’s centuries-old craftsmanship blended with contemporary designs for today’s generation.
                 </p>
                 <p>
-                  Today, three generations later, we continue to honor that vision. Each piece in our collection is
-                  meticulously handcrafted by skilled artisans who have inherited centuries-old techniques while
-                  embracing modern innovation.
+                  From the bustling lanes of Johari Bazaar to the royal legacy of Rajputana jewels, our inspiration comes from the rich heritage of Rajasthan. Every piece we create is a tribute to the artisans whose skill has been passed down for generations, reimagined for the modern wearer.
                 </p>
                 <p>
-                  From our flagship store on Fifth Avenue to our online presence, we remain committed to excellence,
-                  sustainability, and the timeless art of fine jewelry making.
+                  At Gemistry Jewellery, we believe jewellery is not just an accessory – it’s a story you wear. Our mission is to bring a piece of Jaipur’s magic into every jewellery box, making luxury accessible, meaningful, and timeless.
                 </p>
               </div>
             </div>
             <div className="bounce-in">
               <Image
-                src="/logo.jpg?height=600&width=600&text=Henri+Lumière+Portrait"
-                alt="Pranay , Founder"
+                src="/logo.jpg?height=600&width=600&text=Gemistry+Jewellery"
+                alt="Gemistry Jewellery Founder"
                 width={600}
                 height={600}
                 className="rounded-xl shadow-2xl float"
@@ -128,7 +125,7 @@ export default function About() {
           <div className="text-center mb-12 fade-in">
             <h2 className="font-playfair text-4xl font-bold text-gray-900 mb-4">Our Journey</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Milestones that have shaped our legacy over seven decades
+              Milestones that have shaped our legacy over four decades
             </p>
           </div>
 
@@ -203,7 +200,7 @@ export default function About() {
               </div>
               <div className="relative h-96 lg:h-auto bounce-in">
                 <Image
-                  src="/placeholder.svg?height=600&width=600&text=Craftsman+at+Work"
+                  src="/craftsman.jpg?height=600&width=600&text=Craftsman+at+Work"
                   alt="Master craftsman at work"
                   fill
                   className="object-cover"
