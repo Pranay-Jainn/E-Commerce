@@ -1,7 +1,7 @@
-# 🛍️ E-Commerce Web App
+# 💎 Gemistry Jewellery – E-Commerce Web App
 
-A modern **e‑commerce web application** built with **Next.js**, **Tailwind CSS**, and **TypeScript**.  
-This project showcases a **product catalog**, **shopping cart**, and **basic checkout flow** — ideal for learning modern web development and adding to a portfolio.
+A modern **e‑commerce web application** for **Gemistry Jewellery**, a Jaipur-based luxury jewellery brand.  
+This project showcases a **product catalog**, **shopping cart**, and **basic checkout flow** — designed to bring the elegance of Rajasthani craftsmanship into the digital era.
 
 ## 🚀 Tech Stack
 
@@ -18,4 +18,4 @@ This project showcases a **product catalog**, **shopping cart**, and **basic che
 
 ---
 
-📌 _Created as part of a portfolio project to demonstrate full-stack development skills._
+📌 _Built as part of a portfolio project, inspired by the rich jewellery heritage of Jaipur, Rajasthan._
