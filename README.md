@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Portfolio
 =======
 # 🛍️ E-Commerce Web App
@@ -20,4 +19,3 @@ This project showcases a **product catalog**, **shopping cart**, and **basic che
 ---
 
 📌 *Created as part of a portfolio project to demonstrate full-stack development skills.*
->>>>>>> d355436ce7522d5c9d29850dce8e01daa4969746
